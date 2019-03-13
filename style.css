@@ -448,6 +448,16 @@ header img {
     text-align: center;
 }
 
+.project {
+    font-family: 'Saira', sans-serif;
+    margin-top: 20px;
+    background-color: rgb(245, 78, 78);
+}
+
+.project:first-of-type {
+    margin-top: 0;
+}
+
 .project img {
     width: 100%;
 }

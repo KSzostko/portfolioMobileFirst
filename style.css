@@ -461,3 +461,18 @@ header img {
 .project img {
     width: 100%;
 }
+
+.description {
+    margin-right: 20px;
+}
+
+.description h3 {
+    padding: 20px 20px 10px;
+    border-bottom: 2px solid #fff;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.description p {
+    padding: 15px 20px 15px;
+}

@@ -439,6 +439,14 @@ header img {
     color: #fff;
 }
 
+.portfolio h2 {
+    padding: 20px;
+    font-size: 26px;
+    font-family: 'Saira Condensed', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .project img {
     width: 100%;
 }

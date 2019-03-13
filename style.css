@@ -435,6 +435,7 @@ header img {
 
 /* portfollio */
 .portfolio {
+    padding-bottom: 20px;
     background-color: #000;
     color: #fff;
 }

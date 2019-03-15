@@ -481,3 +481,32 @@ header img {
 .description p {
     padding: 15px 20px 15px;
 }
+
+/* mobile portrait */
+@media(min-width: 450px) and (orientation: portrait) {
+    .portfolio {
+        padding-bottom: 40px;
+    }
+
+    .portfolio h2 {
+        font-size: 35px;
+    }
+
+    .project {
+        margin-top: 40px;
+    }
+
+    .description {
+        margin-right: 40px;
+    }
+
+    .description h3 {
+        font-size: 32px;
+    }
+
+    .description p {
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}

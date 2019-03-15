@@ -510,3 +510,34 @@ header img {
         padding-bottom: 40px;
     }
 }
+
+@media (min-width: 700px) and (orientation: portrait) {
+    .portfolio {
+        padding-bottom: 60px;
+    }
+
+    .portfolio h2 {
+        font-size: 55px;
+    }
+
+    .project {
+        margin-top: 60px;
+    }
+
+    .description {
+        margin-right: 40px;
+    }
+
+    .description h3 {
+        font-size: 50px;
+        padding-bottom: 30px;
+        padding-left: 50px;
+    }
+
+    .description p {
+        font-size: 35px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+        padding-left: 50px;
+    }
+}

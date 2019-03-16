@@ -570,3 +570,13 @@ header img {
         font-size: 24px;
     }
 }
+
+@media(min-width: 900px) and (orientation: landscape) {
+    .portfolio h2 {
+        font-size: 38px;
+    }
+
+    .description h3 {
+        font-size: 32px;
+    }
+}

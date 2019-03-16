@@ -541,3 +541,42 @@ header img {
         padding-left: 50px;
     }
 }
+
+/* mobile landscape */
+@media(min-width: 630px) and (orientation: landscape) {
+    .portfolio {
+        padding-bottom: 40px;
+    }
+
+    .portfolio h2 {
+        font-size: 34px;
+    }
+
+    .project {
+        margin-top: 40px;
+    }
+
+    .description {
+        padding-bottom: 60px;
+    }
+
+    .description h3 {
+        padding-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .description p {
+        padding-bottom: 20px;
+        font-size: 24px;
+    }
+}
+
+@media(min-width: 900px) and (orientation: landscape) {
+    .portfolio h2 {
+        font-size: 38px;
+    }
+
+    .description h3 {
+        font-size: 32px;
+    }
+}

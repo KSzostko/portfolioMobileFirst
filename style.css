@@ -435,6 +435,187 @@ header img {
 
 /* portfollio */
 .portfolio {
+    padding-bottom: 20px;
     background-color: #000;
     color: #fff;
+}
+
+.portfolio h2 {
+    padding: 20px;
+    font-size: 26px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.project {
+    font-family: 'Saira', sans-serif;
+    margin-top: 20px;
+    background-color: rgb(245, 78, 78);
+}
+
+.project:nth-of-type(even) {
+    background-color: royalblue;
+}
+
+.project:first-of-type {
+    margin-top: 0;
+}
+
+.project img {
+    width: 100%;
+}
+
+.description {
+    margin-right: 20px;
+}
+
+.description h3 {
+    padding: 20px 20px 10px;
+    border-bottom: 2px solid #fff;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.description p {
+    padding: 15px 20px 15px;
+}
+
+/* mobile portrait */
+@media(min-width: 450px) and (orientation: portrait) {
+    .portfolio {
+        padding-bottom: 40px;
+    }
+
+    .portfolio h2 {
+        font-size: 35px;
+    }
+
+    .project {
+        margin-top: 40px;
+    }
+
+    .description {
+        margin-right: 40px;
+    }
+
+    .description h3 {
+        font-size: 32px;
+    }
+
+    .description p {
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 700px) and (orientation: portrait) {
+    .portfolio {
+        padding-bottom: 60px;
+    }
+
+    .portfolio h2 {
+        font-size: 55px;
+    }
+
+    .project {
+        margin-top: 60px;
+    }
+
+    .description {
+        margin-right: 40px;
+    }
+
+    .description h3 {
+        font-size: 50px;
+        padding-bottom: 30px;
+        padding-left: 50px;
+    }
+
+    .description p {
+        font-size: 35px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+        padding-left: 50px;
+    }
+}
+
+/* mobile landscape */
+@media(min-width: 630px) and (orientation: landscape) {
+    .portfolio {
+        padding-bottom: 40px;
+    }
+
+    .portfolio h2 {
+        font-size: 34px;
+    }
+
+    .project {
+        margin-top: 40px;
+    }
+
+    .description {
+        padding-bottom: 60px;
+    }
+
+    .description h3 {
+        padding-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .description p {
+        padding-bottom: 20px;
+        font-size: 24px;
+    }
+}
+
+@media(min-width: 900px) and (orientation: landscape) {
+    .portfolio h2 {
+        font-size: 38px;
+    }
+
+    .description h3 {
+        font-size: 32px;
+    }
+}
+
+/* desktops */
+@media(min-width: 1025px) and (orientation: landscape) {
+    .portfolio h2 {
+        font-size: 55px;
+        margin-top: 10px;
+    }
+
+    .project {
+        display: flex;
+        margin: 80px;
+    }
+
+    .project:nth-of-type(even) {
+        flex-direction: row-reverse;
+    }
+
+    .project:first-of-type {
+        margin-top: 20px;
+    }
+
+    .project:last-of-type {
+        margin-bottom: 40px;
+    }
+
+    .project img {
+        width: 50%;
+    }
+
+    .description h3 {
+        margin-right: 20px;
+        padding-left: 40px;
+    }
+
+    .description p {
+        padding-top: 40px;
+        padding-left: 40px;
+    }
 }

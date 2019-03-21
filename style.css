@@ -580,3 +580,42 @@ header img {
         font-size: 32px;
     }
 }
+
+/* desktops */
+@media(min-width: 1025px) and (orientation: landscape) {
+    .portfolio h2 {
+        font-size: 55px;
+        margin-top: 10px;
+    }
+
+    .project {
+        display: flex;
+        margin: 80px;
+    }
+
+    .project:nth-of-type(even) {
+        flex-direction: row-reverse;
+    }
+
+    .project:first-of-type {
+        margin-top: 20px;
+    }
+
+    .project:last-of-type {
+        margin-bottom: 40px;
+    }
+
+    .project img {
+        width: 50%;
+    }
+
+    .description h3 {
+        margin-right: 20px;
+        padding-left: 40px;
+    }
+
+    .description p {
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+}

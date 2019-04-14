@@ -632,22 +632,15 @@ header img {
 }
 
 .motto .quote {
-    background-color: rgb(45, 104, 180);
-    opacity: 0.6;
+    background-color: rgb(45, 104, 180, 0.5);
     height: 70vh;
-}
-
-.motto .content {
-    opacity: 1;
 }
 
 .motto h2 {
     padding-top: 10px;
     font-size: 26px;
-    opacity: 1;
 }
 
 .motto p {
-    padding-top: 40px;
-    opacity: 1;
+    padding: 40px 10px 0;
 }

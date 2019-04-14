@@ -622,5 +622,10 @@ header img {
 
 /* motto */
 .motto {
+    height: 70vh;
     background-image: url(images/motto.jpg);
+    background-position: 30% 10%;
+    background-attachment: fixed;
+    font-family: 'Saira', sans-serif;
+    color: #fff;
 }

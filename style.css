@@ -628,4 +628,14 @@ header img {
     background-attachment: fixed;
     font-family: 'Saira', sans-serif;
     color: #fff;
+    text-align: center;
+}
+
+.motto h2 {
+    padding-top: 10px;
+    font-size: 26px;
+}
+
+.motto p {
+    padding-top: 40px;
 }

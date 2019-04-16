@@ -694,3 +694,17 @@ header img {
         font-size: 22px;
     }
 }
+
+@media(min-width: 750px) and (orientation: portrait) {
+    .motto h2 {
+        font-size: 60px;
+    }
+
+    .motto .main-quote {
+        font-size: 36px;
+    }
+
+    .motto .author {
+        font-size: 24px;
+    }
+}

@@ -644,3 +644,87 @@ header img {
 .motto p {
     padding: 40px 10px 0;
 }
+
+/* mobile portrait */
+@media(min-width: 360px) and (orientation: portrait) {
+    .motto h2 {
+        padding-top: 40px;
+        font-size: 35px;
+    }
+
+    .motto .main-quote {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    .motto .author {
+        padding-top: 20px;
+        font-size: 12px;
+    }
+}
+
+@media(min-width: 460px) and (orientation: portrait) {
+    .motto h2 {
+        font-size: 40px;
+    }
+
+    .motto .main-quote {
+        padding-top: 100px;
+        font-size: 25px;
+    }
+
+    .motto .author {
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 600px) and (orientation: portrait) {
+    .motto h2 {
+        padding-top: 60px;
+        font-size: 50px;
+    }
+
+    .motto .main-quote {
+        font-size: 28px;
+    }
+
+    .motto .author {
+        padding-top: 40px;
+        font-size: 22px;
+    }
+}
+
+@media(min-width: 750px) and (orientation: portrait) {
+    .motto h2 {
+        padding-top: 80px;
+        font-size: 60px;
+    }
+
+    .motto .main-quote {
+        padding-top: 200px;
+        font-size: 36px;
+    }
+
+    .motto .author {
+        padding-top: 80px;
+        font-size: 24px;
+    }
+}
+
+@media(min-width: 980px) and (orientation: portrait) {
+    .motto h2 {
+        padding-top: 120px;
+        font-size: 80px;
+    }
+
+    .motto .main-quote {
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 45px;
+    }
+
+    .motto .author {
+        font-size: 28px;
+    }
+}

@@ -711,3 +711,20 @@ header img {
         font-size: 24px;
     }
 }
+
+@media(min-width: 980px) and (orientation: portrait) {
+    .motto h2 {
+        padding-top: 120px;
+        font-size: 80px;
+    }
+
+    .motto .main-quote {
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 45px;
+    }
+
+    .motto .author {
+        font-size: 28px;
+    }
+}

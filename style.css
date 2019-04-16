@@ -644,3 +644,21 @@ header img {
 .motto p {
     padding: 40px 10px 0;
 }
+
+/* mobile portrait */
+@media(min-width: 360px) and (orientation: portrait) {
+    .motto h2 {
+        font-size: 35px;
+    }
+
+    .motto .main-quote {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    .motto .author {
+        padding-top: 20px;
+        font-size: 12px;
+    }
+}

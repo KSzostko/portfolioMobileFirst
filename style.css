@@ -728,3 +728,53 @@ header img {
         font-size: 28px;
     }
 }
+
+/* mobile landscape */
+@media(min-width: 533px) and (orientation: landscape) {
+    .motto {
+        height: 90vh;
+        background-position-y: 20%;
+    }
+
+    .motto .quote {
+        height: 90vh;
+    }
+}
+
+@media(min-width: 640px) and (orientation: landscape) {
+    .motto h2 {
+        padding-top: 40px;
+        font-size: 30px;
+    }
+
+    .motto .main-quote {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media(min-width: 720px) and (orientation: landscape) {
+    .motto .main-quote {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 19px;
+    }
+}
+
+@media(min-width: 850px) and (orientation: landscape) {
+    .motto .main-quote {
+        padding-top: 60px;
+        font-size: 22px;
+    }
+}
+
+@media(min-width: 930px) and (orientation: landscape) {
+    .motto h2 {
+        padding-top: 80px;
+        font-size: 35px;
+    }
+
+    .motto .main-quote {
+        padding: 80px 40px 0;
+    }
+}

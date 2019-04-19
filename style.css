@@ -760,3 +760,10 @@ header img {
         font-size: 19px;
     }
 }
+
+@media(min-width: 850px) and (orientation: landscape) {
+    .motto .main-quote {
+        padding-top: 60px;
+        font-size: 22px;
+    }
+}

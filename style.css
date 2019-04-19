@@ -728,3 +728,15 @@ header img {
         font-size: 28px;
     }
 }
+
+/* mobile landscape */
+@media(min-width: 533px) and (orientation: landscape) {
+    .motto {
+        height: 90vh;
+        background-position-y: 20%;
+    }
+
+    .motto .quote {
+        height: 90vh;
+    }
+}

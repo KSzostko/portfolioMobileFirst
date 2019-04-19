@@ -767,3 +767,14 @@ header img {
         font-size: 22px;
     }
 }
+
+@media(min-width: 930px) and (orientation: landscape) {
+    .motto h2 {
+        padding-top: 80px;
+        font-size: 35px;
+    }
+
+    .motto .main-quote {
+        padding: 80px 40px 0;
+    }
+}

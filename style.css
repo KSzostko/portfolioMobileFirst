@@ -712,6 +712,16 @@ header img {
     }
 }
 
+@media(min-width: 760px) and (min-height: 1000px) and (orientation: portrait) {
+    .motto {
+        height: 90vh;
+    }
+
+    .motto .quote {
+        height: 90vh;
+    }
+}
+
 @media(min-width: 980px) and (orientation: portrait) {
     .motto h2 {
         padding-top: 120px;

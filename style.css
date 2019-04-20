@@ -778,3 +778,19 @@ header img {
         padding: 80px 40px 0;
     }
 }
+
+/* desktops */
+@media(min-width: 1024px) and (orientation: landscape) {
+    .motto h2 {
+        font-size: 45px;
+    }
+
+    .motto .main-quote {
+        padding: 100px 60px 0;
+        font-size: 32px;
+    }
+
+    .motto .author {
+        font-size: 18px;
+    }
+}

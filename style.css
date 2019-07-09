@@ -626,6 +626,8 @@ header img {
     background-image: url(images/motto.jpg);
     background-position: 30% 10%;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Saira', sans-serif;
     color: #fff;
     text-align: center;

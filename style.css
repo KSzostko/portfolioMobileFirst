@@ -904,3 +904,11 @@ header img {
         height: 90vh;
     }
 }
+
+@media(min-width: 700px) and (orientation: landscape) {
+    .hobbys__title {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

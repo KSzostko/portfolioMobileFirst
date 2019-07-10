@@ -830,3 +830,41 @@ header img {
     text-align: center;
     text-transform: uppercase;
 }
+
+.hobby:nth-child(2) {
+    background-image: url('images/hobby1.jpg');
+}
+
+.hobby:nth-child(3) {
+    background-image: url('images/hobby2.jpg');
+}
+
+.hobby:nth-child(4) {
+    background-image: url('images/hobby3.jpg');
+}
+
+.hobby:nth-child(5) {
+    background-image: url('images/hobby4.jpg');
+}
+
+.hobby {
+    position: relative;
+    height: 40vh;
+    background-size: cover;
+}
+
+/* for desktops for later on */
+.hobby:hover .hobby__description {
+    height: 40vh;
+    background-color: rgba(255, 79, 44, 0.5);
+    cursor: pointer;
+}
+
+.hobby__content {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}

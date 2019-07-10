@@ -821,3 +821,12 @@ header img {
         font-size: 24px;
     }
 }
+
+/* hobbys */
+.hobbys__title {
+    margin: 10px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+}

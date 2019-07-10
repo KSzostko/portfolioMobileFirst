@@ -851,22 +851,20 @@ header img {
     position: relative;
     height: 40vh;
     background-size: cover;
-}
-
-/* for desktops for later on */
-.hobby:hover .hobby__description {
-    height: 40vh;
-    background-color: rgba(255, 79, 44, 0.5);
-    cursor: pointer;
+    transition: 1s;
 }
 
 .hobby__content {
-    display: none;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
+    font-family: 'Saira', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: 1s;
 }
 
 /* mobile portrait */
@@ -922,5 +920,61 @@ header img {
 @media(min-width: 950px) and (orientation: landscape) {
     .hobbys__title {
         font-size: 45px;
+    }
+}
+
+/* desktops */
+@media(min-width: 1025px) and (orientation: landscape) {
+    .hobbys {
+        transition: 1s;
+        display: grid;
+        grid-template-areas: "title title"
+            "hobby1 hobby2"
+            "hobby3 hobby4";
+    }
+
+    .hobbys__title {
+        grid-area: title;
+    }
+
+    .hobby {
+        height: 60vh;
+        background-size: 100%;
+        background-position: 0 0;
+    }
+
+    .hobby:nth-child(2) {
+        grid-area: hobby1;
+    }
+
+    .hobby:nth-child(3) {
+        grid-area: hobby2;
+    }
+
+    .hobby:nth-child(4) {
+        grid-area: hobby3;
+    }
+
+    .hobby:nth-child(5) {
+        grid-area: hobby4;
+    }
+
+    .hobby__description {
+        transition: 1s;
+    }
+
+    .hobby:hover {
+        background-size: 180%;
+        background-position: 0 50%;
+    }
+
+    .hobby:hover .hobby__description {
+        height: 60vh;
+        background-color: rgba(255, 79, 44, 0.5);
+        cursor: pointer;
+    }
+
+    .hobby:hover .hobby__content {
+        opacity: 1;
     }
 }

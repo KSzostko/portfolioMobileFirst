@@ -897,3 +897,10 @@ header img {
         margin-bottom: 50px;
     }
 }
+
+/* mobile landscape */
+@media(min-width: 533px) and (orientation: landscape) {
+    .hobby {
+        height: 90vh;
+    }
+}

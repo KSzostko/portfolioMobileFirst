@@ -868,3 +868,10 @@ header img {
     transform: translate(-50%, -50%);
     color: #fff;
 }
+
+/* mobile portrait */
+@media (min-width: 400px) and (orientation: portrait) {
+    .hobbys__title {
+        font-size: 32px;
+    }
+}

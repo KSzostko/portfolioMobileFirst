@@ -889,3 +889,11 @@ header img {
         margin-bottom: 30px;
     }
 }
+
+@media(min-width: 900px) and (orientation: portrait) {
+    .hobbys__title {
+        font-size: 70px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}

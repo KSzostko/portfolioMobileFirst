@@ -1056,3 +1056,32 @@ header img {
 .social__adress {
     color: #fff;
 }
+
+/* mobile portrait */
+@media(min-width: 400px) and (orientation: portrait) {
+    .contact__title {
+        font-size: 32px;
+    }
+
+    .contact__form {
+        height: 60vh;
+    }
+
+    #name,
+    #email,
+    #message {
+        font-size: 15px;
+    }
+
+    .contact__button {
+        font-size: 23px;
+    }
+
+    .social__image {
+        margin-left: 50px;
+    }
+
+    .social__adress {
+        font-size: 18px;
+    }
+}

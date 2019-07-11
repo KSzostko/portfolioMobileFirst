@@ -1165,3 +1165,9 @@ header img {
         margin-left: 50px;
     }
 }
+
+@media(min-width: 850px) and (orientation: landscape) {
+    .contact__form {
+        height: 80vh;
+    }
+}

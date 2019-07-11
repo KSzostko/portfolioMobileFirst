@@ -1175,7 +1175,7 @@ header img {
 /* desktops */
 @media(min-width: 1024px) and (orientation: landscape) {
     .contact {
-        height: 90vh;
+        height: 95vh;
         display: grid;
         grid-template-columns: 2fr 1fr 1fr 2fr;
         grid-template-areas: "title title title title"
@@ -1236,4 +1236,13 @@ header img {
     .social__image {
         width: 22%;
     }
+}
+
+/* footer */
+.footer {
+    height: 10vh;
+    background-color: #29a9df;
+    font-size: 18px;
+    text-align: center;
+    line-height: 10vh;
 }

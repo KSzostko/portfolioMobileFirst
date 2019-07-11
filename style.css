@@ -981,3 +981,78 @@ header img {
         opacity: 1;
     }
 }
+
+/* contact */
+.contact {
+    background-color: #111;
+    padding-bottom: 16px;
+}
+
+.contact__form {
+    position: relative;
+    height: 65vh;
+}
+
+.contact__title {
+    padding: 30px 0 20px 0;
+    font-family: 'Saira', sans-serif;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+}
+
+.contact__input {
+    text-align: center;
+}
+
+#name,
+#email,
+#message {
+    width: 85vw;
+    padding-left: 10px;
+    margin: 0 16px 10px 16px;
+}
+
+#name,
+#email {
+    height: 6vh;
+}
+
+#message {
+    padding-top: 10px;
+}
+
+.contact__button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85vw;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    background-color: #111;
+    font-family: 'Saira', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.social__item {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.social__image {
+    width: 15%;
+    margin-left: 30px;
+    margin-right: 16px;
+}
+
+.social__adress {
+    color: #fff;
+}

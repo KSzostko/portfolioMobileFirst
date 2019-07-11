@@ -1147,3 +1147,21 @@ header img {
         font-size: 28px;
     }
 }
+
+/* mobile landscape */
+@media(min-width: 533px) and (orientation: landscape) {
+    .contact__form {
+        height: 100vh;
+        margin-bottom: 16px;
+    }
+
+    #name,
+    #email {
+        height: 6vw;
+    }
+
+    .social__image {
+        width: 8%;
+        margin-left: 50px;
+    }
+}

@@ -1171,3 +1171,69 @@ header img {
         height: 80vh;
     }
 }
+
+/* desktops */
+@media(min-width: 1024px) and (orientation: landscape) {
+    .contact {
+        height: 90vh;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        grid-template-areas: "title title title title"
+            ". form social ."
+            ". form social .";
+    }
+
+    .contact__title {
+        grid-area: title;
+        margin-bottom: 50px;
+        font-size: 45px;
+        text-transform: uppercase;
+    }
+
+    .contact__form {
+        grid-area: form;
+    }
+
+    #name,
+    #email,
+    #message {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+    #name,
+    #email {
+        height: 5vh;
+        width: 25vw;
+    }
+
+    #message {
+        width: 25vw;
+    }
+
+    .contact__button {
+        width: 25vw;
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    .contact__button:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+    .social {
+        grid-area: social;
+        justify-content: flex-start;
+    }
+
+    .social__item {
+        margin-bottom: 20px;
+    }
+
+    .social__image {
+        width: 22%;
+    }
+}
